@@ -1,174 +1,233 @@
-  * {
-      margin: 0px;
-      padding: 0px;
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
-  }
+body {
+    background-color: #10071e;
+    color: white;
+    font-family: 'Poppins';
+}
 
-  body {
-      background-color: #10071e;
-      color: white;
-      font-family: 'Poppins'
-  }
+header {
+    position: sticky;
+    top: 0px;
+    background-color: #270c3a;
+}
 
-  header {
-      position: sticky;
-      top: 0px;
-      background-color: #270c3a;
+.navmain {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: #270c3a;
+}
 
-  }
+.right ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-  .navmain {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      height: 100px;
-      background-color: #270c3aae;
+ul li {
+    margin: 20px;
+    list-style: none;
+}
 
-
-  }
-
-  .right ul {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-
-  ul li {
-      margin: 20px;
-      list-style: none;
-
-  }
-
-  ul li a {
-      text-decoration: none;
-       color: #540ff7;
-  }
-
-  .right ul li :hover {
-      /* background-color: #fff; */
-      color: #8465b5;
-
-  }
-
-  .right ul :hover {
-      font-size: 1.2rem;
-  }
-
-  .left {
-      font-size: 1.75rem;
-  }
-
-  .firstsec {
-      display: flex;
-      justify-content: space-around;
-      margin: 20px 0px;
-
-  }
-
-  .firstsec>div {
-      width: 40%;
-  }
-
-  .leftsec {
-      margin: 200px 0px;
-      font-size: 3rem;
-  }
-
-  .colorfont {
-      color: rgb(203, 14, 203);
-  }
-
-  .rightsec img {
-      margin: 60px;
-      width: 60vh;
-      height: 80vh;
-      border-radius: 30%;
-  }
-
-  #element {
-      color: #af7eff;
-  }
-
-  hr {
-      border: 0px;
-      background: #540ff7;
-      height: 2px;
-      margin: 40px 80px;
-  }
-
-  .intro {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100px;
-      text-decoration: underline;
-      font-size: 2rem;
-  }
-
-  .hero {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      margin: 80px;
-  }
-
-  .leftsec1 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 30vw;
-      margin: auto;
-      /* background-color: #fff; */
-
-  }
-
-  .rightsec1 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 40vw;
-      margin: auto;
-      font-size: 1.5rem;
-      /* background-color: #fff; */
-  }
-
-  .leftsec1 img {
-      height: 400px;
-      width: 400px;
-      border-radius: 100%;
-  }
-
-  .footer {
-      width: 100%;
-      height: 20vh;
-      background-color: #090128;
-  }
-
-  .footer ul {
-      display: flex;
-      column-count: 2;
-      text-align: center;
-      justify-content: space-around
-  }
-
-  .btn {
-      margin: 30px;
-      font-size: 20px;
-  background-color: #080011;
-/* color: rgb(248, 246, 246); */
- border:2px solid white;
- height: 50px;
- border-radius: 10px;
- width: 100px;
- text-align: center;
-  }
- .btn :hover{
-    background-color: #fff;
+ul li a {
     text-decoration: none;
+    color: #540ff7;
+}
+
+.right ul li:hover {
+    color: #8465b5;
+}
+
+.right ul:hover {
+    font-size: 1.2rem;
+}
+
+.left {
+    font-size: 1.75rem;
+}
+
+.firstsec {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+
+.firstsec > div {
+    width: 40%;
+}
+
+.leftsec {
+    margin: 200px 0px;
+    font-size: 3rem;
+}
+
+.colorfont {
+    color: rgb(203, 14, 203);
+}
+
+.rightsec img {
+    margin: 60px;
+    width: 60vh;
+    height: 80vh;
+    border-radius: 30%;
+}
+
+#element {
+    color: #af7eff;
+}
+
+hr {
+    border: 0px;
+    background: #540ff7;
+    height: 2px;
+    margin: 40px 80px;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px;
+}
+
+.leftsec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    margin: auto;
+}
+
+.rightsec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+.leftsec1 img {
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+}
+
+.footer {
+    width: 100%;
+    height: 20vh;
+    background-color: #090128;
+}
+
+.footer ul {
+    display: flex;
+    column-count: 2;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.btn {
+    margin: 30px;
+    font-size: 20px;
+    background-color: #080011;
+    border: 2px solid white;
+    height: 50px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #fff;
     color: #000;
-    
- }
- .btn a{
+}
+
+.btn a {
     text-decoration: none;
     color: #fff;
- }
+}
+
+@media only screen and (max-width: 768px) {
+    .navmain {
+        /* flex-direction: column; */
+        height: 35vh;
+        padding: 10px 0;
+    }
+
+    .right ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .firstsec {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .firstsec > div {
+        width: 90%;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .leftsec {
+        margin: 40px 0;
+        font-size: 2rem;
+    }
+
+    .rightsec img {
+        width: 80%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .hero {
+        flex-direction: column;
+        margin: 40px 20px;
+    }
+
+    .leftsec1, .rightsec1 {
+        width: 90vw;
+        margin: 10px auto;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .leftsec1 img {
+        width: 70vw;
+        height: auto;
+    }
+
+    .intro {
+        font-size: 1.5rem;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .footer ul {
+        flex-direction: column;
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .btn {
+        width: 80%;
+        max-width: 200px;
+        height: 45px;
+        font-size: 1rem;
+    }
+}
