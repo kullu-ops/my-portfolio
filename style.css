@@ -164,13 +164,15 @@ hr {
 @media only screen and (max-width: 768px) {
     .navmain {
         /* flex-direction: column; */
-        height: 35vh;
-        padding: 10px 0;
+        height: 15 vh;
+        padding: 18px ;
+        width: 100%;
+       
     }
 
     .right ul {
-        flex-direction: column;
-        gap: 10px;
+        /* flex-direction: column; */
+        gap: 2px;
     }
 
     .firstsec {
